@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-   
+
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2 dark_bg">
@@ -19,23 +20,144 @@
           <div class="menu-list">
             <ul>
               <li class="mb-3"><a href="#"><i class="ri-home-7-line me-1"></i>Dashboard</a></li>
-              <li class="mb-3"><a href="#"><i class="ri-stack-line me-1"></i> Pages</a></li>
-              <li class="mb-3"><a href="#"><i class="ri-lock-line me-1"></i>Authentication</a></li>
-              <li class="mb-3"><a href="#"><i class="ri-layout-2-line me-1"></i> Layouts</a></li>
-              <li class="mb-3"><a href="#"><i class="ri-code-block me-1"></i> Components</a></li>
-              <li class="mb-3"><a href="#"><i class="ri-pages-line me-1"></i> Menus</a></li>
+              <li><a class="d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div class="mb-3">
+                    <i class="ri-stack-line me-1"></i>
+                    <span>Pages</span>
+                  </div>
+                  <i class="ri-arrow-drop-down-line ri-xl"></i>
+                </a>
+                <div>
+                  <div class="collapse ps-4 pt-2" id="collapseExample">
+                    <ul>
+                      <li class="mb-1"><a href="#">Profile</a></li>
+                      <li class="mb-1"><a href="#">Setting</a></li>
+                      <li class="mb-1"><a href="#">Billing</a></li>
+                      <li class="mb-1"><a href="#">Pricing</a></li>
+                      <li class="mb-1"><a href="#">Error 4</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li><a class="d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample2"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div class="mb-3">
+                    <i class="ri-lock-line me-1"></i>
+                    <span>Authentication</span>
+                  </div>
+                  <i class="ri-arrow-drop-down-line ri-xl"></i>
+                </a>
+                <div>
+                  <div class="collapse ps-4 pt-2" id="collapseExample2">
+                    <ul>
+                      <li class="mb-1"><a href="#">Sign in</a></li>
+                      <li class="mb-1"><a href="#">Sign up</a></li>
+                      <li class="mb-1"><a href="#">Forget Password</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="mb-3"><a href="#"><i class="ri-layout-line me-1"></i> Layouts</a></li>
+
+              <li><a class="d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample3"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div class="mb-3">
+                    <i class="ri-computer-line me-1"></i>
+                    <span>Components</span>
+                  </div>
+                  <i class="ri-arrow-drop-down-line ri-xl"></i>
+                </a>
+                <div>
+                  <div class="collapse ps-4 pt-2" id="collapseExample3">
+                    <ul>
+                      <li class="mb-1"><a href="#">Accordions</a></li>
+                      <li class="mb-1"><a href="#">Alerts</a></li>
+                      <li class="mb-1"><a href="#">Badges</a></li>
+                      <li class="mb-1"><a href="#">Badges</a></li>
+                      <li class="mb-1"><a href="#">Breadcrumbs</a></li>
+                      <li class="mb-1"><a href="#">Buttons</a></li>
+                      <li class="mb-1"><a href="#">Button Group</a></li>
+                      <li class="mb-1"><a href="#">Cards</a></li>
+                      <li class="mb-1"><a href="#">Carousal</a></li>
+                      <li class="mb-1"><a href="#">Closed Button</a></li>
+                      <li class="mb-1"><a href="#">Collapse</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li><a class="d-flex justify-content-between" data-bs-toggle="collapse" href="#collapseExample4"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">
+                  <div class="mb-3">
+                    <i class="ri-corner-left-down-fill me-1"></i>
+                    <span>Menu Level</span>
+                  </div>
+                  <i class="ri-arrow-drop-down-line ri-xl"></i>
+                </a>
+                <div>
+                  <div class="collapse ps-4 pt-2" id="collapseExample4">
+                    <ul>
+                      <li class="mb-1"><a href="#">Two Level</a></li>
+                      <li class="mb-1"><a href="#">Three Level</a></li>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
               <li class="mb-3"><a href="#"><i class="ri-article-line me-1"></i> Docs</a></li>
+              <li class="mb-3"><a href="#"><i class="ri-route-line me-1"></i> Changelog</a></li>
               <li class="mb-3"><a href="#"><i class="ri-download-cloud-2-line me-1"></i> Downloads</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-md-10">
-        main content
+        <div class="container-fluid pt-2">
+          <div class="row justify-content-between">
+            <div class="col-md-3">
+              <div class="d-flex gap-2">
+                <a class="align-content-center fs-5" href="#">
+                  <i class="ri-menu-fill"></i>
+                </a>
+                <input type="text" placeholder="search" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="d-flex justify-content-end gap-2">
+                <span class="small-circle bg-secondary-subtle"><i class="ri-notification-3-line"></i></span>
+
+              <div class="dropdown">
+                <a class="dropdown-toggle position-relative" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img class="img-fluid small-circle" src="./assets/images/avatar-1.jpg" alt="">
+                  <span class="online-status"></span>
+              </a>
+                <ul class="dropdown-menu">
+                  <li class="border-bottom border-1"><a class="dropdown-item fw-bold" href="#">John E. Grainger</a>
+                  <p class="ms-3 fs-6">View my profile</p></li>
+                  <li><a class="dropdown-item mt-1" href="#"><i class="ri-user-line me-2"></i>Edit Profile</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="ri-square-root me-2"></i>Actitvit Log</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="ri-star-line me-2"></i>Go Pro</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="ri-settings-2-line me-2"></i>Account Setting</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="ri-logout-circle-line me-2"></i>Sign Out</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
