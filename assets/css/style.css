@@ -4,7 +4,7 @@
 
 .row>div {
     /* border: 1px solid red; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 a,
@@ -73,4 +73,59 @@ ul{
     position: absolute;
     right: 1px;
     bottom: 2px;
+}
+.bg-blue{
+    background-color: #624bff;
+}
+.py-6{
+    padding: 110px 0px;
+}
+
+.icon-box{
+    width: 45px;
+    height: 45px;
+    background-color: #e0dcfe;
+    color: #624bff;
+    padding: 8px 11px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-color {
+    color: rgb(99, 115, 129);
+}
+.box_shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 20, .08), 0 1px 2px rgba(0, 0, 20, .08);
+}
+
+.tabel-heading > th{
+    background-color: #f1f5f9;
+    font-size: 15px;
+    color: rgb(99, 115, 129);
+    font-weight: 500;
+}
+
+.avatar-group > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: -20px;
+    position: relative;
+    z-index: 3;
+}
+.avatar-group > img:hover {
+    z-index: 10;
+}
+
+.team-box{
+    width: 40px;
+    height: 40px;
+}
+
+.gray{
+    color: rgb(99, 115, 129);
 }
