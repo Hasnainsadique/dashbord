@@ -1,7 +1,9 @@
 :root {
     --primary-color: #212b36;
 }
-
+body{
+    background-color: #f1f5f9;
+}
 .row>div {
     /* border: 1px solid red; */
     /* height: 100vh; */
@@ -17,7 +19,9 @@ ul{
     list-style: none;
     padding: 0;
 }
-
+.my-table td{
+    padding: 20px !important;
+}
 .dark_bg {
     background-color: var(--primary-color);
 }
